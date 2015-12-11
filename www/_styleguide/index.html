@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>gulp kss template</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="" />
+    <meta name="generator" content="" />
+    <link rel="stylesheet" href="public/kss.css" />
+    <link rel="stylesheet" href="generic.css" />
+</head>
+<body class="kss-body">
+<div class="kss-content-wrap">
+    <div class="kss-content-side">
+        <header class="kss-content-header">
+            <h1 class="kss-site-id">KSS<br>STYLE<br>GUIDE</h1>
+        </header>
+
+        <nav class="kss-nav">
+            <ul class="kss-nav__parent">
+                <li class="kss-nav__item --parent">
+                    <a href="./index.html"><span class="kss-nav__ref">0</span><span class="kss-nav__name">Overview</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="kss-content-main">
+        <div class="kss-content-main-inner">
+            <section id="section-0" class="kss-section --overview">
+                <h1 id="style-guide-overview">Style guide overview</h1>
+<p class="kss-section__description">This documentation is style guide for <code>example.com</code>.</p>
+
+<h2 id="usage">Usage</h2>
+<p>Here&#39;s an example KSS comment:</p>
+<div class="kss-block">
+    <div class="kss-block__markup">
+<pre class="prettyprint"><code>// Button
+//
+// Your standard button suitable for clicking.
+//
+// Markup: <code>&lt;a href=&quot;#&quot; class=&quot;.button {$modifiers}&quot;&gt;CLICK&lt;/a&gt;</code>
+//
+// :hover   - Highlights when hovering.
+// .shiny   - Do not press this big, shiny, red button.
+//
+// Style guide 1
+.button {
+  ...
+}
+.button.shiny {
+  ...
+}</code></pre>
+    </div>
+</div>
+
+
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://github.com/kss-node/kss-node">kss-node</a></li>
+</ul>
+
+            </section>
+
+            <footer class="kss-content-footer">
+            Copyright © 2015 <a href="https://github.com/nakagaw/gulp-kss-sass" target="_blank">nakagaw</a>. template is <a href="https://github.com/nakagaw/gulp-kss-template" target="_blank">gulp-kss-template</a>. All rights reserved. Version 0.0.1
+            </footer>
+        </div>
+    </div>
+</div>
+<script src="public/kss.js"></script>
+</body>
+</html>

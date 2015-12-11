@@ -1,0 +1,283 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/generic.css">
+        <style type="text/css">
+        </style>
+    </head>
+    <body class="page--home">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<header class="content-header">
+    <nav class="global-nav">
+      <ul class="global-nav__list">
+        <li class="global-nav__list-item"><a href="#home">Home</a></li>
+        <li class="global-nav__list-item"><a href="#newsBlock">News</a></li>
+        <li class="global-nav__list-item"><a href="#formElements">Form</a></li>
+      </ul>
+    </nav>
+
+    <nav class="user-nav">
+      <ul class="user-nav__list">
+        <li class="user-nav__list-item"><a href="#"  data-bind="click: toggleUserNotification"><i class="icon svg-notification">user</i></a></li>
+        <li class="user-nav__list-item"><a href="#"  data-bind="click: toggleUserSettings"><i class="icon svg-user">user</i></a></li>
+      </ul>
+    </nav>
+</header>
+
+<nav class="content-settings" data-bind=" css : {'is-active' : userSettingsActive}">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#newsBlock">News</a></li>
+        <li><a href="#formElements">Form</a></li>
+      </ul>
+</nav>
+
+<nav class="content-notifications" data-bind=" css : {'is-active' : userNotificationActive}">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#newsBlock">News</a></li>
+        <li><a href="#formElements">Form</a></li>
+      </ul>
+</nav>
+
+<div class="content-wrap">
+
+    <main class="content-main" data-bind="event : { scroll : xxxxxxpageScrolled}">
+
+        <div class="sub-header" data-bind="css : {'is-fixed' : subHeadFixed}">
+            <ul class="sub-header-nav">
+                <li><a href="#">breadcrumbs</a></li>
+            </ul>
+        </div>
+
+        <section class="home-intro" id="home">
+            <div class="section__wrap">
+                <h1 class="home-intro__title">Hello world!</h1>
+
+                <h2 class="home-intro__title--secondly">This is HTML5 Boilerplate.</h2>
+                <a href="https://github.com/nakagaw/gulp_init" target="_blank" class="button">GitHub</a>
+            </div>
+        </section>
+
+        <section  class="news-block" id="newsBlock">
+            <div class="section__wrap">
+                <h2 class="section__wrap-title">News Block</h2>
+                <h3 class="section__wrap-description">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</h3>
+                <div class="block__element">
+                    <ul class="media-list">
+                        <li class="media-list__item">
+                            <div class="media-list__item-image">
+                                <div class="media-list__item-image-thumb"><img src="./assets/img/01.jpg" alt=""></div>
+                            </div>
+                            <div class="media-list__item-body media-list__item-body--middle">
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            </div>
+                        </li>
+                        <li class="media-list__item">
+                            <div class="media-list__item-image">
+                                <div class="media-list__item-image-thumb"><img src="./assets/img/02.jpg" alt=""></div>
+                            </div>
+                            <div class="media-list__item-body media-list__item-body--middle">
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            </div>
+                        </li>
+                        <li class="media-list__item">
+                            <div class="media-list__item-image">
+                                <div class="media-list__item-image-thumb"><img src="./assets/img/03.jpg" alt=""></div>
+                            </div>
+                            <div class="media-list__item-body media-list__item-body--middle">
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            </div>
+                        </li>
+                        <li class="media-list__item">
+                            <div class="media-list__item-image">
+                                <div class="media-list__item-image-thumb"><img src="./assets/img/04.jpg" alt=""></div>
+                            </div>
+                            <div class="media-list__item-body media-list__item-body--middle">
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-elements" id="formElements">
+            <div class="section__wrap">
+                <h2 class="section__wrap-title--single">Form Elements</h2>
+                <p class="section__wrap-description--sentence">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</p>
+                <fieldset>
+                    <form>
+                        <div class="form-elements__item">
+                            <label for="text_field" class="required">Text Field</label>
+                            <input type="text" id="text_field">
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="text_area" class="required">Text Area</label>
+                            <textarea rows="4" id="text_area"></textarea>
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="select_element">Select Element</label>
+                            <select name="select_element">
+                                <optgroup label="Option Group 1">
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </optgroup>
+                                <optgroup label="Option Group 2">
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="radio_buttons">Radio Buttons</label>
+                            <ul class="clickable-list">
+                                <li><label>
+                                <input type="radio" class="radio" name="radio_button" value="radio_1"> Radio 1<br>Two lines
+                                </label></li>
+                                <li><label>
+                                <input type="radio" class="radio" name="radio_button" value="radio_2"> Radio 2
+                                </label></li>
+                                <li><label>
+                                <input type="radio" class="radio" name="radio_button" value="radio_3"> Radio 3
+                                </label></li>
+                            </ul>
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="checkboxes">Checkboxes</label>
+                            <ul class="clickable-list">
+                                <li><label>
+                                <input type="checkbox" class="checkbox" name="checkboxes" value="check_1"> Checkbox 1
+                                </label></li>
+                                <li><label>
+                                <input type="checkbox" class="checkbox" name="checkboxes" value="check_2"> Checkbox 2
+                                </label></li>
+                                <li><label>
+                                <input type="checkbox" class="checkbox" name="checkboxes" value="check_3"> Checkbox 3
+                                </label></li>
+                            </ul>
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="select_chosen_1">Pulldown Menu</label>
+                            <select name="select_chosen_1" class="chosen-select">
+                                <option value="val1">選択肢 その1</option>
+                                <option value="val2">選択肢 その2</option>
+                                <option value="val3">選択肢 その3</option>
+                                <option value="val4">選択肢 その4</option>
+                                <option value="val5">選択肢 その5</option>
+                            </select>
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="select_chosen_2">Pulldown Menu</label>
+                            <select name="select_chosen_2" data-placeholder="Choose a Country..." class="chosen-select" multiple tabindex="1">
+                                <option value=""></option>
+                                <option value="United States">United States</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Aland Islands">Aland Islands</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="American Samoa">American Samoa</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Angola">Angola</option>
+                                <option value="Anguilla">Anguilla</option>
+                            </select>
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="select_chosen_3">Pulldown Menu</label>
+                            <select name="select_chosen_3" data-placeholder="Choose a Country..." class="chosen-select" tabindex="2">
+                                <option value=""></option>
+                                <option value="United States">United States</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Aland Islands">Aland Islands</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="American Samoa">American Samoa</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Angola">Angola</option>
+                                <option value="Anguilla">Anguilla</option>
+                                <option value="Antarctica">Antarctica</option>
+                            </select>
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="password">Password</label>
+                            <input type="password" class="password" name="password">
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="file">File Input</label>
+                            <input type="file" class="file" name="file">
+                        </div>
+
+                        <div class="form-elements__item">
+                            <label for="search">Search Input</label>
+                            <input type="search" class="search" name="search">
+                        </div>
+
+                        <div class="form-elements__button">
+                            <input type="submit" value="Submit" class="button">
+                            <button type="reset" class="button">Reset</button>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="section__wrap">
+                <div class="cols">
+                    <h1>cols</h1>
+                </div>
+
+                <div class="cols">
+                    <h1>cols</h1>
+                </div>
+            </div>
+        </section>
+    </main>
+</div><!-- l-content-wrap -->
+
+<footer class="content-footer">
+        Copyright © 2015 <a href="https://github.com/nakagaw/gulp_init" target="_blank">nakagaw/gulp_init</a>. All rights reserved. Version 0.0.1
+</footer>
+
+<div data-bind="koModalMask: maskModal, click: closeModal"></div>
+
+
+        <script src="assets/js/index.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

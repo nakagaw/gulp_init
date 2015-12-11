@@ -1,0 +1,52 @@
+// variables.scss
+// =============================================================
+
+// prefix
+$setPrefix: -webkit-,-moz-,-ms-,-o-,'';
+
+// image path
+// ==========
+
+// base
+$imgPath: "../img";
+
+// colors
+// ======
+
+// text
+$primayBlack: #333;
+$normalBlack: #555;
+$gray: #888;
+
+// links
+$linkColor: #00a7e9;
+$linkHoverColor: #44B6EF;
+
+
+// Content width sizes
+// =====
+
+$pageSize: 1140px;
+$headerHeight: 60px;
+$contentNav: 280px;
+$sectionWrap: 800px;
+
+// Z-Index Scale (private vars)
+// =====
+$zIndex-1:   100;
+$zIndex-2:   200;
+$zIndex-3:   300;
+$zIndex-4:   400;
+$zIndex-5:   500;
+$zIndex-6:   600;
+$zIndex-7:   700;
+$zIndex-8:   800;
+$zIndex-9:   900;
+$zIndex-10: 1000;
+
+
+// Defining font family
+// ====================
+
+$fontDefault: 'Open Sans', Helvetica, Arial, sans-serif !default;
+$fontDefaultJa: 'Open Sans', Helvetica, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, Arial, sans-serif;

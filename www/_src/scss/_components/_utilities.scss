@@ -1,0 +1,104 @@
+// utilities
+// =============================================================
+
+// Helper classes
+// ==============
+
+// float layout
+// ============
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+}
+
+// Clearfix (extend)
+// =================
+
+.cf {
+    @include cf();
+}
+
+%clearfix {
+    @include cf();
+}
+
+// Guidance
+.guidance {
+    position: absolute;
+    top: 0;
+    left: -1000em;
+    width: 900em;
+}
+
+// SkipLink
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: -1000em;
+    width: 900em;
+}
+
+// Fixed element
+// =============
+
+.fixed-element {
+    position: relative;
+    @include mq(small) {
+        position: fixed;
+    }
+}
+
+.fixed-always {
+    position: fixed !important;
+}
+
+// round image
+// ===========
+
+.round-image {
+    border-radius: 50%;
+}
+
+// vertical alignment
+// ==================
+
+.v-top {
+    vertical-align: top;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.v-bottom {
+    vertical-align: bottom;
+}
+
+// Toggling content
+// ================
+
+%hidden-always {
+    display: none !important;
+}
+
+.is-hidden {
+    @extend %hidden-always;
+}
+
+.is-invisible {
+    visibility: hidden;
+}
+
+// margin
+// ======
+
+@for $i from 0 through 20 {
+    .mg-t#{$i * 5} { margin-top: 5px * $i !important; }
+    .mg-b#{$i * 5} { margin-bottom: 5px * $i !important; }
+    .mg-l#{$i * 5} { margin-left: 5px * $i !important; }
+    .mg-r#{$i * 5} { margin-right: 5px * $i !important; }
+}

@@ -1,0 +1,1257 @@
+%svg-common {
+	background: url("../img/sprite.svg") no-repeat;
+}
+
+.svg-add {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-adduser {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-announcement {
+	@extend %svg-common;
+	background-position: 0 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-apps {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-arrowdown {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-arrowup {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-attach {
+	@extend %svg-common;
+	background-position: 0 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-back {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-ban {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-bold {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-bookmark {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-brush {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-bucket {
+	@extend %svg-common;
+	background-position: 0 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-builder {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-call {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-capslock {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-cases {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-center_align_text {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-chart {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-chat {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-check {
+	@extend %svg-common;
+	background-position: 0 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-checkin {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-chevrondown {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-chevronleft {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-chevronright {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-chevronup {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-clear {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-clock {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-close {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-comments {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-company {
+	@extend %svg-common;
+	background-position: 0 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-connected_apps {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-contract {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-contract_alt {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-copy {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-crossfilter {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-custom_apps {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-cut {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-dash {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-dayview {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-delete {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-deprecate {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-desktop {
+	@extend %svg-common;
+	background-position: 0 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-down {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-download {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-edit {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-email {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-end_call {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-erect_window {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-error {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-event {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-expand {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-expand_alt {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-favorite {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-filter {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-filterList {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-forward {
+	@extend %svg-common;
+	background-position: 0 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-frozen {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-groups {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-help {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-home {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-identity {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-image {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-inbox {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-info {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-insert_tag_field {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-insert_template {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-italic {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-justify_text {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-kanban {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-knowledge_base {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-layout {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-left {
+	@extend %svg-common;
+	background-position: 0 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-left_align_text {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-like {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-link {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-list {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-location {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-lock {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-logout {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-magicwand {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-matrix {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-minimize_window {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-monthlyview {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-move {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-muted {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-new {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-new_window {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-news {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-notebook {
+	@extend %svg-common;
+	background-position: 0 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-notification {
+	@extend %svg-common;
+	background-position: 0 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-office365 {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-offline {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-open {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-open_folder {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-opened_folder {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-package {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-package_org {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-package_org_beta {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-page {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-palette {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-paste {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-people {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-phone_landscape {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-phone_portrait {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-photo {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-power {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-preview {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-priority {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-process {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-push {
+	@extend %svg-common;
+	background-position: 0 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-puzzle {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-question {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-questions_and_answers {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-record {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-redo {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-refresh {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-relate {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-remove_formatting {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-remove_link {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-replace {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-reply {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-reset_password {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-retweet {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-richtextbulletedlist {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-richtextindent {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-richtextnumberedlist {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-richtextoutdent {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-right {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-right_align_text {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-rotate {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-rows {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-salesforce1 {
+	@extend %svg-common;
+	background-position: 0 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-search {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-settings {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-setup {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-setup_assistant_guide {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-share {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-shield {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-side_list {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-signpost {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-sms {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-snippet {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-socialshare {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-sort {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-spinner {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-standard_objects {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-stop {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-strikethrough {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-success {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-summary {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-summarydetail {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-switch {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-table {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 75%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-tablet_landscape {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 83.33333333333333%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-tablet_portrait {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 91.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-text_background_color {
+	@extend %svg-common;
+	background-position: 0 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-text_color {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-threedots {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-tile_card_list {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-topic {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-trail {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-undelete {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-undeprecate {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-underline {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-undo {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-unlock {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-unmuted {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-up {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 100%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-upload {
+	@extend %svg-common;
+	background-position: 100% 0;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-user {
+	@extend %svg-common;
+	background-position: 100% 8.333333333333334%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-volume_high {
+	@extend %svg-common;
+	background-position: 100% 16.666666666666668%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-volume_low {
+	@extend %svg-common;
+	background-position: 100% 25%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-volume_off {
+	@extend %svg-common;
+	background-position: 100% 33.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-warning {
+	@extend %svg-common;
+	background-position: 100% 41.666666666666664%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-weeklyview {
+	@extend %svg-common;
+	background-position: 100% 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-world {
+	@extend %svg-common;
+	background-position: 100% 58.333333333333336%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-zoomin {
+	@extend %svg-common;
+	background-position: 100% 66.66666666666667%;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-zoomout {
+	@extend %svg-common;
+	background-position: 100% 75%;
+	width: 20px;
+	height: 20px;
+}
+

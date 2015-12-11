@@ -1,0 +1,44 @@
+// media
+// =============
+
+.media-list {
+    padding-left: 0;
+
+    @at-root &__item {
+        @include col(1/2, $cycle: 2);
+        margin-bottom: 30px;
+        display: table;
+
+        &-image {
+            display: table-cell;
+
+            &-thumb {
+                overflow: hidden;
+                img { display: block; width: 220px; margin-left: -20px; margin-top: -20px;}
+                width: 120px;
+                height: 120px;
+                background-color: #000;
+                @include border-top-radius(50%);
+                @include border-bottom-radius(50%);
+            }
+        }
+
+        &-body {
+            display: table-cell;
+            padding-left: 20px;
+            vertical-align: top;
+
+            p {
+                margin: 0;
+            }
+
+            &--middle {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+
+
+

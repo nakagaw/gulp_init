@@ -1,0 +1,7 @@
+NestingDepth:
+    enabled: true
+    max_depth: 4
+
+SelectorDepth:
+  enabled: true
+  max_depth: 4

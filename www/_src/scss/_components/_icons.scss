@@ -1,0 +1,19 @@
+// icons
+// ============================================================
+
+// imports
+// =======
+@import "spriteSVG";
+@import "spritePNG";
+@import "spritePNG@2x";
+
+// spriteSVGには下記のスタイルはつかないので別途追加
+.icon {
+    display: inline-block;
+    @include hide-text;
+    vertical-align: middle;
+}
+.assistive-text {
+    margin-left: 5px;
+    vertical-align: middle;
+}

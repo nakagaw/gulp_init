@@ -1,0 +1,105 @@
+// mixin
+// =============================================================
+
+// font-size
+@mixin fz($size) {
+    font-size: #{$size}px;
+    font-size: rem($size);
+}
+
+// media query
+$xsmallRange: 414px;
+$smallRange: 800px;
+$mediumRange: 1024px;
+$largeRange: 1140px;
+$xlargeRange: 1280px;
+$xxlargeRange: 1440px;
+$xxxlargeRange: 1600px;
+
+@mixin mq($media) {
+    // only for Blog posts layout
+    @if $media == mobile {
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+            @content;
+        }
+    }
+    @if $media == xsmall{
+        @media screen and (min-width: #{$xsmallRange + 1}) {
+            @content;
+        }
+    }
+    @if $media == small{
+        @media screen and (min-width: #{$smallRange + 1}) {
+            @content;
+        }
+    }
+    @if $media == medium{
+        @media screen and (min-width: #{$mediumRange + 1}) {
+            @content;
+        }
+    }
+    @if $media == large {
+        @media screen and (min-width: #{$largeRange}) {
+            @content;
+        }
+    }
+    @if $media == xlarge {
+        @media screen and (min-width: #{$xlargeRange}) {
+            @content;
+        }
+    }
+    @if $media == xxlarge {
+        @media screen and (min-width: #{$xxlargeRange}) {
+            @content;
+        }
+    }
+    @if $media == xxxlarge {
+        @media screen and (min-width: #{$xxxlargeRange}) {
+            @content;
+        }
+    }
+    @if $media == retina {
+        @include hidpi(1.5) { // bourbon mixin
+            @content;
+        }
+    }
+    @if $media == ie10 {
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            @content;
+        }
+    }
+}
+
+
+// helper mixins
+// =============
+
+// IE Hack
+
+// for IE8
+@mixin lt-ie9 {
+    .lt-ie9 & {
+        @content;
+    }
+}
+
+// for IE9
+@mixin lt-ie10 {
+    .lt-ie10 & {
+        @content;
+    }
+}
+
+// for lang ja (japanese)
+@mixin ja {
+    html[lang="ja"] & {
+        @content;
+    }
+}
+
+// for lang en (English)
+@mixin en {
+    html[lang="en-US"] & {
+        @content;
+    }
+}
