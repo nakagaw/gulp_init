@@ -1,4 +1,4 @@
-(function() {
+    (function() {
     'use strict';
 
     // Knockout.js
@@ -34,6 +34,7 @@
 
             // Scroll fixed subHeader
             self.subHeadFixed = ko.observable(false);
+            // Must set style=" height: 100%;  overflow: hidden; overflow-y: scroll;"
             self.pageScrolled = function(data, event) {
                 // Calc Scroll Range
                 var contentMain = event.target;

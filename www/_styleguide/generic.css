@@ -805,7 +805,7 @@ img {
 .content-main .sub-header.is-fixed {
   position: fixed;
   top: 60px;
-  z-index: 800;
+  z-index: 500;
 }
 
 .content-main .sub-header .sub-header-nav {
